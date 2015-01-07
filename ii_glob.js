@@ -1,6 +1,6 @@
-var glob = require("glob")
+var glob = require("glob");
 
 glob("*.js", function(er, files){
-    console.log(files)
+    console.log(files);
 });
 
