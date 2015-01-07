@@ -1,0 +1,19 @@
+<%
+var dt = new Date();
+var y = dt.getFullYear();
+var m = dt.getMonth() + 1;
+var d = dt.getDate();
+%>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" href="./style.css" rel="stylesheet">
+  <title><%= title %></title>
+</head>
+<body>
+  <h1><%= title %></h1>
+  <p><%= msg %></p>
+  <p> 今日は <%= y %> 年 <%= m %> 月 <%= d %> 日 です。</p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title= title
+    link(rel="stylesheet", href="style.css")
+  body
+    h1= title
+    hr
+    p= message + '(' + form.name + ',' + form.mail + ',' + form.age + ')'
+    hr
+    form(method='post', action='/')
+      table
+        tr
+          td
+            input(type='text', name='name', value=form.name)
+        tr
+          td
+            input(type='text', name='mail', value=form.mail)
+        tr
+          td
+            input(type='text', name='age', value=form.age)
+        tr
+          td
+            input(type='submit')
