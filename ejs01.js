@@ -1,7 +1,6 @@
 // ejs01.js
 // Itaya Engineering ii/2014/05/05
-// Itaya Engineering ii/2015/01/21 15:15:21
-// Itaya Engineering ii/2015/01/21
+// Itaya Engineering ii/2015/01/21 15:16:48
 
 var http = require('http');
 var url = require('url');
